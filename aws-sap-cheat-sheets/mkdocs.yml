@@ -1,0 +1,36 @@
+site_name: AWS SAP-C02 Master Notes
+site_description: Architect-level AWS SAP Cheat Sheets
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+
+  - Domains:
+      - Networking: domains/networking.md
+      - Security: domains/security.md
+      - Resilience: domains/resilience.md
+
+  - Services:
+      - EC2: services/ec2.md
+      - S3: services/s3.md
+      - RDS: services/rds.md
+
+  - Comparisons:
+      - DX vs VPN: comparisons/dx-vs-vpn.md
+      - Private VIF vs Transit VIF: comparisons/private-vif-vs-transit-vif.md
+      - RDS vs Aurora: comparisons/rds-vs-aurora.md
+
+  - Decision Trees:
+      - Networking Decisions: decision-trees/networking-decisions.md
+
+  - Scenarios:
+      - Exam Scenarios: scenarios/exam-scenarios.md
